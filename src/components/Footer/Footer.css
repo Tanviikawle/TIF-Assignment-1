@@ -1,0 +1,129 @@
+.footerContainer {
+    background-color: #F8F8F8;
+}
+
+svg {
+    margin-right: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgba(14, 35, 104, 1);
+}
+
+.footerRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialInfo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerText>p {
+    color: rgba(100, 104, 116, 1);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.footerText>h5 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgba(14, 35, 104, 1);
+}
+
+.footerSocials {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgba(14, 35, 104, 1);
+}
+
+.socialInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media (max-width:768px) {
+    .footerText {
+        text-align: left;
+    }
+
+    .footerText>h5 {
+        text-align: left;
+    }
+
+    .footerText>p {
+        text-align: left;
+    }
+
+    .socialText {
+        display: none;
+    }
+
+    .socialInfo {
+        text-align: center;
+        align-items: center;
+    }
+
+    .socialIcons {
+        width: 50%;
+    }
+
+    .footerText {
+        margin-bottom: 4rem;
+    }
+
+    .truckImg {
+        width: 10rem;
+        height: 7rem;
+        margin-bottom: 4rem;
+        justify-self: center !important;
+    }
+
+    .footerRow {
+        justify-content: center;
+    }
+
+    .footerContainer {
+        background-color: #F8F8F8;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .socialIcons {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .socialIcons {
+        width: 100%;
+    }
+
+    .copyright {
+        text-align: center !important;
+        font-size: small;
+    }
+}

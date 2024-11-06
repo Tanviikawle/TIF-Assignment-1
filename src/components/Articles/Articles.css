@@ -1,0 +1,23 @@
+.card{
+    border-radius: 20.94px;
+}
+
+.btn-outline-dark{
+    border-radius: 50px !important;
+}
+
+.articleHeading{
+    margin-bottom: 4rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(14, 35, 104, 1);
+    font-size: 3.5rem;
+}
+
+@media (max-width: 1240px) {
+    .articleHeading{
+        text-align: center;
+    }
+  }

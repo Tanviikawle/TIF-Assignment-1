@@ -1,0 +1,60 @@
+.btn-danger {
+  width: fit-content !important;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(226, 55, 68, 1) !important;
+}
+
+.about {
+  background-color: #F0F1F7;
+  padding: 0px;
+}
+
+
+.aboutSection {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.subHeading {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: rgba(68, 73, 87, 1);
+}
+
+.aboutHeading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgba(14, 35, 104, 1);
+  font-size: 3rem;
+}
+
+@media (max-width: 1240px) {
+  .ingredientImg {
+    display: none;
+  }
+
+  .aboutText {
+    text-align: center;
+    align-items: center;
+    margin: 5rem;
+    padding: 5rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutText {
+    text-align: center;
+    align-items: center;
+    margin: 5rem;
+    padding: 5rem;
+  }
+}

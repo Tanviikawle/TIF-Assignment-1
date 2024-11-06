@@ -1,0 +1,42 @@
+.paginationKeys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.paginationKeys>P {
+    margin: auto 0px;
+    padding: 0.5rem 1rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.pageButton {
+    text-align: center;
+    border: 1px solid rgba(66, 73, 97, 1);
+    padding: 0.3rem 0.5rem;
+}
+
+.pageButton:focus,
+.pageButton:hover {
+    border: 1px solid rgba(66, 73, 97, 1);
+    color: inherit;
+}
+
+
+.pageButton>Svg {
+    margin-right: 0px !important;
+    fill: rgba(66, 73, 97, 1)
+}
+
+@media (max-width:1240px) {
+    .paginationKeys {
+        margin-top: 2rem;
+    }
+
+}

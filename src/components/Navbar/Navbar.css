@@ -1,0 +1,42 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-brand {
+  margin-left: 5.5rem;
+}
+
+.btn-outline-light {
+  border-radius: 50px !important;
+  margin-right: 1.5rem;
+}
+
+.navbar-brand>img {
+  margin-top: 1.3rem;
+}
+
+.navBg {
+  background-color: rgba(0, 0, 0, 0)
+}
+
+
+@media (max-width: 1240px) {
+  .navImg {
+    display: none;
+  }
+
+  .btn-outline-light {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 325px) {
+  .btn-outline-light {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
