@@ -15,8 +15,8 @@ const Header = () => {
           </div>
         </div>
         <div className='col-lg-6 col-md-12 col-sm-12 image-container d-flex order-lg-2 order-1' >
-          <img src={pizzaImg} alt="Background Image" className="background-image" />
-          <img src={redVector} alt="Overlay Image" className="overlay-image" />
+          <img src={pizzaImg} alt="Background" className="background-image" />
+          <img src={redVector} alt="Overlay" className="overlay-image" />
         </div>
       </main>
     </header>
